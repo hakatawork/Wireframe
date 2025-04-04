@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    font-size: 14px; /* Base font size */
+}
+
+.wireframe-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if not enough space */
+    gap: 20px; /* Space between screens */
+    justify-content: center; /* Center screens if they wrap */
+}
+
+.wireframe-screen {
+    width: 300px; /* Typical width for mobile wireframe */
+    min-height: 600px; /* Minimum height */
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Space below each screen if they wrap */
+}
+
+.screen-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* For positioning the title */
+}
+
+.screen-title {
+    position: absolute;
+    top: -18px; /* Position title above the box */
+    left: 10px;
+    font-size: 10px;
+    color: #888;
+    background-color: #f0f0f0; /* Match body background */
+    padding: 0 5px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    flex-grow: 1; /* Allow logo to take space */
+    text-align: center; /* Center logo text */
+}
+
+.menu-dots {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1;
+    color: #555;
+}
+
+.screen-content {
+    padding: 15px;
+    flex-grow: 1; /* Allow content to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between elements in content area */
+}
+
+/* Specific Screen Content Styles */
+.splash-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.text-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    min-height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.card h3, .card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card li {
+    margin-bottom: 5px;
+}
+
+.placeholder-image {
+    border: 1px dashed #aaa;
+    background-color: #f8f8f8;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.placeholder-image.small {
+    min-height: 60px;
+    font-size: 0.9em;
+}
+.placeholder-image.large {
+    min-height: 150px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #3366cc; /* Link-like color */
+}
+
+.links span {
+    cursor: pointer; /* Indicate interactivity */
+}
+
+.btn {
+    background-color: #e0e0e0;
+    border: 1px solid #cccccc;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%; /* Make buttons full width */
+    box-sizing: border-box; /* Include padding and border in width */
+    margin-top: 5px; /* Add some space above buttons if needed */
+}
+
+.btn:hover {
+    background-color: #d0d0d0;
+}
+
+.more-results h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 10px; /* Space between grid items */
+}
+
+.small-result-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 0.85em;
+}
+
+.small-result-card p {
+    margin: 5px 0;
+}
+
+.info-card p, .result-card p {
+    margin: 3px 0; /* Tighter spacing for details */
+    line-height: 1.4;
+}
+
+.share-card input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Include padding and border in width */
+    margin-top: 10px;
+}
+
+.confirmation-card {
+    text-align: center;
+}
