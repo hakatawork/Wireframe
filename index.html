@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Implementation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wireframe-container">
+
+    <!-- 1. Splash Screen -->
+    <div class="wireframe-screen">
+        <div class="screen-header">
+            <span class="screen-title">Splash</span>
+            <h2 class="logo">LOGOTYP</h2>
+            <span class="menu-dots">...</span>
+        </div>
+        <div class="screen-content splash-content">
+            <p>Budskap/Intro text</p>
+        </div>
+    </div>
+
+    <!-- 2. Start Screen -->
+    <div class="wireframe-screen">
+        <div class="screen-header">
+            <span class="screen-title">Start</span>
+            <h2 class="logo">LOGOTYP</h2>
+            <span class="menu-dots">...</span>
+        </div>
+        <div class="screen-content">
+            <div class="text-box">
+                Budskap/Intro text
+            </div>
+            <div class="card">
+                <h4>Preferenser</h4>
+                <ul>
+                    <li>Typ av mat</li>
+                    <li>Prisnivå</li>
+                    <li>Kostbehov</li>
+                    <li>Avstånd till lunchstället</li>
+                    <li>Popularitet och betyg</li>
+                </ul>
+            </div>
+            <button class="btn">CTA (Sök)</button>
+        </div>
+    </div>
+
+    <!-- 3. Resultat Screen -->
+    <div class="wireframe-screen">
+        <div class="screen-header">
+            <span class="screen-title">Resultat</span>
+            <h2 class="logo">LOGOTYP</h2>
+            <span class="menu-dots">...</span>
+        </div>
+        <div class="screen-content">
+            <div class="card result-card">
+                <h3>Resultat / Restaurang</h3>
+                <div class="placeholder-image">Bild</div>
+                <p><strong>Namn på restaurang</strong></p>
+                <p>Betyg</p>
+                <p>Adress/Telefon</p>
+                <p>Avstånd - meter</p>
+                <p>Avtsånd - tid</p>
+                <div class="links">
+                    <span>Länk - Meny</span>
+                    <span>Länk - Karta</span>
+                </div>
+            </div>
+            <button class="btn">Visa mer information</button>
+            <button class="btn">Dela med lunchkompis</button>
+            <button class="btn">Ny sökning</button>
+
+            <div class="more-results">
+                <h4>Yta för att visa fler restauanger?</h4>
+                <div class="results-grid">
+                    <div class="small-result-card">
+                        <div class="placeholder-image small">Bild</div>
+                        <p>Namn på restaurang</p>
+                        <p>Betyg & Avstånd</p>
+                    </div>
+                    <div class="small-result-card">
+                        <div class="placeholder-image small">Bild</div>
+                        <p>Namn på restaurang</p>
+                        <p>Betyg & Avstånd</p>
+                    </div>
+                    <div class="small-result-card">
+                        <div class="placeholder-image small">Bild</div>
+                        <p>Namn på restaurang</p>
+                        <p>Betyg & Avstånd</p>
+                    </div>
+                    <div class="small-result-card">
+                        <div class="placeholder-image small">Bild</div>
+                        <p>Namn på restaurang</p>
+                        <p>Betyg & Avstånd</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. Ny sökning Screen -->
+    <div class="wireframe-screen">
+        <div class="screen-header">
+            <span class="screen-title">Ny sökning</span>
+            <h2 class="logo">LOGOTYP</h2>
+            <span class="menu-dots">...</span>
+        </div>
+        <div class="screen-content">
+            <div class="card">
+                <h4>Preferenser</h4>
+                <ul>
+                    <li>Typ av mat</li>
+                    <li>Prisnivå</li>
+                    <li>Kostbehov</li>
+                    <li>Avstånd till lunchstället</li>
+                    <li>Popularitet och betyg</li>
+                </ul>
+            </div>
+            <button class="btn">CTA (Sök)</button>
+        </div>
+    </div>
+
+     <!-- 5. Restaurang info Screen -->
+     <div class="wireframe-screen">
+        <div class="screen-header">
+            <span class="screen-title">Restaurang info</span>
+            <h2 class="logo">LOGOTYP</h2>
+            <span class="menu-dots">...</span>
+        </div>
+        <div class="screen-content">
+            <div class="card info-card">
+                <h3>Restaurang information</h3>
+                <div class="placeholder-image large">Bild</div>
+                <p><strong>Namn på restaurang</strong></p>
+                <p>Betyg</p>
+                <p>Adress/Telefon</p>
+                <p>Avstånd - meter</p>
+                <p>Avtsånd - tid</p>
+                <h4>Mer information?</h4>
+                 <div class="links">
+                    <span>Länk - Meny</span>
+                    <span>Länk - Karta</span>
+                </div>
+            </div>
+            <button class="btn">Dela med lunchkompis</button>
+            <button class="btn">Ny sökning</button>
+        </div>
+    </div>
+
+    <!-- 6. Dela Screen -->
+    <div class="wireframe-screen">
+        <div class="screen-header">
+            <span class="screen-title">Dela</span>
+            <h2 class="logo">LOGOTYP</h2>
+            <span class="menu-dots">...</span>
+        </div>
+        <div class="screen-content">
+             <div class="card share-card">
+                 <h3>Dela</h3>
+                 <p>Text till lunch buddy</p>
+                 <input type="email" placeholder="E-post">
+             </div>
+            <button class="btn">Skicka/Dela</button>
+        </div>
+    </div>
+
+     <!-- 7. Confirmation Screen -->
+     <div class="wireframe-screen">
+        <div class="screen-header">
+            <span class="screen-title">Confirmation</span>
+            <h2 class="logo">LOGOTYP</h2>
+            <span class="menu-dots">...</span>
+        </div>
+        <div class="screen-content">
+             <div class="card confirmation-card">
+                <h3>Dela</h3>
+                <p>Confirmation sida</p>
+             </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
